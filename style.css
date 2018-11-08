@@ -130,3 +130,80 @@ nav {
 .send:hover {
   opacity: .9;
 }
+
+.design-style {
+  background-image: url(images/Dropdown.png);
+  background-repeat: no-repeat;
+  background-position: right 10% center;
+}
+
+.email {
+  background-image: url(images/ArrowBlue.png);
+  background-repeat: no-repeat;
+  background-position: right 10% center;
+}
+
+.latest-design-stye {
+  background-image: url(images/LatestDesignBakcground.png);
+  background-size: contain;
+  position: relative;
+  height: 531px;
+  overflow: visible;
+}
+
+.scroll-down1 {
+  height: 110px;
+  width: 110px;
+  position: absolute;
+  right: 743px;
+  top: -55px;
+  background-color: white;
+  border-radius: 50% 50%;
+  background-image: url(images/ScrollDown1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.latest-design-stye-title {
+  font-size: 40px;
+  color: #333b42;
+  padding-top: 115px;
+  text-align: center;
+}
+
+.latest-design-stye-text {
+  width: 685px;
+  color: #74797e;
+  font-size: 14px;
+  text-align: center;
+  padding-left: 450px;
+  padding-top: 30px;
+}
+
+.iPhone {
+  width: 423px;
+  height: 238px;
+  background-image: url(images/iPhone.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 588px;
+  margin-top: 70px;
+}
+
+.scroll-down2 {
+  height: 110px;
+  width: 110px;
+  position: absolute;
+  right: 743px;
+  background-color: #28c8c6;
+  border-radius: 50% 50%;
+  background-image: url(images/ScrollDown2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  bottom: -55px;
+}
+
+.features-of-app {
+  height: 775px;
+  top: -150px;
+}
