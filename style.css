@@ -68,18 +68,18 @@ nav {
   background-color: #a100ff;
   font-size: 16px;
   color: white;
+  padding-right: 30px;
   border: none;
   border-radius: 5px;
   margin-left: 10px;
-}
-
-.join img {
-  vertical-align: middle;
-  padding-left: 10px;
+  background-image: url(images/ArrowRight.png);
+  background-repeat: no-repeat;
+  background-position: right 20% center;
 }
 
 .join:hover {
   opacity: .9;
+  cursor: pointer;
 }
 
 .main {
@@ -141,6 +141,8 @@ nav {
   background-image: url(images/ArrowBlue.png);
   background-repeat: no-repeat;
   background-position: right 10% center;
+  padding-right: 50px;
+  width: 205px;
 }
 
 .latest-design-stye {
@@ -167,7 +169,7 @@ nav {
   height: 110px;
   width: 110px;
   position: absolute;
-  background-image: url(images/ScrollDown1.png);
+  background-image: url(images/ScrollDownGrey.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -205,13 +207,119 @@ nav {
   right: 743px;
   background-color: #28c8c6;
   border-radius: 50% 50%;
-  background-image: url(images/ScrollDown2.png);
+  background-image: url(images/ScrollDownWhite.png);
   background-repeat: no-repeat;
   background-position: center;
   bottom: -55px;
 }
 
 .features-of-app {
-  height: 775px;
-  top: -150px;
+ position: relative;
+ border-bottom: 1px solid #d8e0e8;
+}
+
+.features-of-app-title {
+  text-align: center;
+  font-size: 30px;
+  color: #333b42;
+  margin-top: 160px;
+}
+
+.features-of-app-text {
+  text-align: center;
+  font-size: 14px;
+  color: #74797e;
+  margin-top: 30px;
+  margin-left: 450px;
+  width: 660px;
+}
+
+.features-list {
+  margin-top: 55px;
+  text-align: center;
+  margin: 55px auto 30px;
+}
+
+.features-list li {
+  display: inline-block;
+  width: 280px;
+  height: 400px;
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.fiolet-circle {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  background-color: #8500d2;
+  margin: 0 auto;
+}
+
+.shop-basket .fiolet-circle {
+  background-image: url(images/ShopBasket.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sending .fiolet-circle {
+  background-image: url(images/Sending.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.exchange .fiolet-circle {
+  background-image: url(images/Exchange.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.laptop .fiolet-circle {
+  background-image: url(images/Laptop.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.features-list-titles {
+  display: block;
+  margin-top: 35px;
+  font-size: 17px;
+  font-weight: bold;
+  color: #333b42;
+}
+
+.features-list-texts {
+  margin-top: 35px;
+  font-size: 14px;
+  color: #74797e;
+}
+
+.scroll-down-with-border {
+  height: 110px;
+  width: 110px;
+  position: absolute;
+  right: 743px;
+  background-color: #white;
+  border-radius: 50% 50%;
+  bottom: -56px;
+  border-bottom: 1px solid #d8e0e8;
+  border-left: 1px solid #d8e0e8;
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+  transform: rotate(-45deg);
+}
+
+.scroll-down-with-border-grey {
+  height: 110px;
+  width: 110px;
+  position: absolute;
+  background-image: url(images/ScrollDownGrey.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(45deg);
+}
+
+.design-guidelines {
+  background-color: #f6f9fa;
 }
