@@ -145,20 +145,28 @@ nav {
 
 .latest-design-stye {
   background-image: url(images/LatestDesignBakcground.png);
-  background-size: contain;
+  background-size: auto;
   position: relative;
   height: 531px;
   overflow: visible;
 }
 
-.scroll-down1 {
+.scroll-down-bubbles {
   height: 110px;
   width: 110px;
   position: absolute;
   right: 743px;
   top: -55px;
-  background-color: white;
   border-radius: 50% 50%;
+  background-image: url(images/LatestDesignBakcground.png);
+  background-size: auto;
+  background-position: 3px 5px;
+}
+
+.scroll-down-grey {
+  height: 110px;
+  width: 110px;
+  position: absolute;
   background-image: url(images/ScrollDown1.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -190,7 +198,7 @@ nav {
   margin-top: 70px;
 }
 
-.scroll-down2 {
+.scroll-down-turquoise {
   height: 110px;
   width: 110px;
   position: absolute;
