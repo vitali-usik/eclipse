@@ -323,3 +323,138 @@ nav {
 .design-guidelines {
   background-color: #f6f9fa;
 }
+
+.design-guidelines-title {
+  text-align: center;
+  font-size: 30px;
+  color: #333b42;
+  padding-top: 130px;
+}
+
+.design-guidelines-text {
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  color: #74797e;
+  width: 910px;
+  margin: 25px auto 40px 345px;
+}
+
+.design-guidelines-navigation {
+  margin: 0 auto;
+  border: 1px solid #28c8c6;
+  border-collapse: collapse;
+}
+
+.design-guidelines-navigation tr {
+  height: 55px;
+}
+
+
+
+.design-guidelines-navigation-link {
+  text-decoration: none;
+  color: #28c8c6;
+  padding: 20px 45px;
+}
+
+.design-guidelines-navigation-link:hover {
+  color: white;
+}
+
+.development:hover, .design:hover, .business:hover, .arts:hover {
+  background-color: #28c8c6;
+  border: none;
+}
+
+.design-listing {
+  margin-top: 50px;
+  margin-left: 210px;
+  padding-bottom: 70px;
+}
+
+.design-listing-one {
+  display: inline-block;
+  height: 275px;
+  width: 380px;
+  border-radius: 10px;
+  background-color: white;
+  margin-left: 20px;
+}
+
+.design-picture {
+  width: 380px;
+  height: 205px;
+  background-image: url(images/DesignBackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.design-links {
+  text-align: center;
+  background-image: url(images/Link.png);
+  background-repeat: no-repeat;
+  background-position: center right 20%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.design-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #5d6266;
+  width: 380px;
+  height: 70px;
+  line-height: 70px;
+  vertical-align: middle;
+}
+
+.design-links:hover {
+  border-bottom: 1px solid #28c8c6;
+  border-right: 1px solid #28c8c6;
+  opacity: .6;
+}
+
+.push-yourself {
+  height: 890px;
+  width: 1600px;
+  background-image: url(images/Woman.png);
+  background-repeat: no-repeat;
+}
+
+.push-yourself-text {
+  width: 780px;
+  height: 225px;
+  position: absolute;
+  background-image: url(images/LogoBig.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  margin-top: 330px;
+  margin-left: 215px;
+}
+
+.slogan-title {
+  font-size: 60px;
+  color: white;
+  text-align: left;
+  padding-left: 210px;
+}
+
+.slogan-text {
+  font-size: 16px;
+  color: white;
+  padding-left: 210px;
+  padding-top: 95px;
+}
+
+.macbook {
+  position: absolute;
+  width: 1010px;
+  height: 1246px;
+  background-image: url(images/Macbook.png);
+  background-repeat: no-repeat;
+  margin-top: -535px;
+  left: 500px;
+}
