@@ -83,12 +83,16 @@ nav {
   cursor: pointer;
 }
 
-.contact-us-botton {
+.contact-us-button {
     display: inline-block;
-    float: right;
+    position: fixed;
+    right: 0;
+    margin-right: -63px;
+    top: 50%;
     height: 57px;
     width: 180px;
     border-radius: 5px;
+    border: none;
     background-color: #8500d2;
     color: white;
     font-size: 16px;
@@ -98,7 +102,7 @@ nav {
     transform: rotate(-90deg);
 }
 
-.contact-us-botton:hover {
+.contact-us-button:hover {
   opacity: .6;
 }
 
@@ -495,7 +499,15 @@ footer {
 
 .additional-info {
   height: 160px;
-  column-count: 2;
+}
+
+.additional-info-colom1 {
+  float: left;
+}
+
+.additional-info-colom2 {
+ float: left;
+ width: 70px;
 }
 
 .info-about {
